@@ -683,6 +683,7 @@ GameObject:
   - component: {fileID: 5387452919597148579}
   - component: {fileID: 505146577958861611}
   - component: {fileID: 616077933047638174}
+  - component: {fileID: 947409050532786823}
   m_Layer: 0
   m_Name: Revive
   m_TagString: Untagged
@@ -791,6 +792,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &947409050532786823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2432148560154983282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e68f948edeef4f02ba9400479dfe0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: -5
 --- !u!1 &2492317542641192573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +2306,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9158206429734234066}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}

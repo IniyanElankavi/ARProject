@@ -35,6 +35,7 @@ public class InteractionController : MonoBehaviour
         if(hitCounter == 5)
         {
             anim.SetInteger("Dead", 1);
+            WarriorPrefab.GetComponentInChildren<Canvas>().enabled = true;
             sfx.Defeat(0);
             hitCounter = 0;
         }
@@ -44,6 +45,7 @@ public class InteractionController : MonoBehaviour
     public void Revive()
     {
         anim.SetInteger("Dead", 2);
+        WarriorPrefab.GetComponentInChildren<Canvas>().enabled = false;
         print("REVIVED");
     }
 
