@@ -1,0 +1,250 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker27
+-projectPath
+/Volumes/Backup Drive/Documents/ENCORA/ARProject/ARProject
+-logFile
+Logs/AssetImportWorker27.log
+-srvPort
+53232
+Successfully changed project path to: /Volumes/Backup Drive/Documents/ENCORA/ARProject/ARProject
+/Volumes/Backup Drive/Documents/ENCORA/ARProject/ARProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 395.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/Backup Drive/Documents/ENCORA/ARProject/ARProject/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-14 20:06:13.420 Unity[3930:765320] Color LCD preferred device: Intel HD Graphics 4000 (low power)
+2022-03-14 20:06:13.420 Unity[3930:765320] Metal devices available: 1
+2022-03-14 20:06:13.420 Unity[3930:765320] 0: Intel HD Graphics 4000 (low power)
+2022-03-14 20:06:13.421 Unity[3930:765320] Using device Intel HD Graphics 4000 (low power)
+Initializing Metal device caps: Intel HD Graphics 4000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56930
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000803 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 63.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.320 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.053963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 58.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.246 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1833 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 3.096037 ms (FindLiveObjects: 0.281404 ms CreateObjectMapping: 0.069373 ms MarkObjects: 2.590581 ms  DeleteObjects: 0.153232 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/3D/Animation/forest_guard@get_hit_L.FBX
+  artifactKey: Guid(7010ff792cd8d40509f5dbd0b22dd726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@get_hit_L.FBX using Guid(7010ff792cd8d40509f5dbd0b22dd726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad30f2dce6ee5fbd3dffd9565e74c21') in 2.361709 seconds
+  Import took 2.366263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/3D/Model/Mesh.FBX
+  artifactKey: Guid(271b2e7fcc28b431fbed699ca2c66109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Model/Mesh.FBX using Guid(271b2e7fcc28b431fbed699ca2c66109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e56b6a13356330ad68a34a3a6482218') in 0.156802 seconds
+  Import took 0.161158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/3D/Animation/forest_guard@attack(4).FBX
+  artifactKey: Guid(6434ce118f13d4465b8f03af13832b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@attack(4).FBX using Guid(6434ce118f13d4465b8f03af13832b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5c4b2c34eba97fc4566e85bbd297e0') in 0.157236 seconds
+  Import took 0.161429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/3D/Model
+  artifactKey: Guid(eb3bc4c28fd884f04a4e3779c5229c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Model using Guid(eb3bc4c28fd884f04a4e3779c5229c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ca7706c912320c63a7c2e36756195d') in 0.013496 seconds
+  Import took 0.019420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3D/Animation/forest_guard@walk.FBX
+  artifactKey: Guid(2b5e45f8f37604c75a89a10a351d0daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@walk.FBX using Guid(2b5e45f8f37604c75a89a10a351d0daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17ae3ce5bc57cff7d7a4af06cadaf35') in 0.172017 seconds
+  Import took 0.177447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/3D/Animation/forest_guard@attack(3).FBX
+  artifactKey: Guid(b127a4ba87e5a4c63a2c534d0384e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@attack(3).FBX using Guid(b127a4ba87e5a4c63a2c534d0384e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486bc9a05aa65e0d89a48ad00a420acf') in 0.217065 seconds
+  Import took 0.222759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/3D/Animation/forest_guard@hit_block.FBX
+  artifactKey: Guid(6af898175681c41fda0179eacc41e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@hit_block.FBX using Guid(6af898175681c41fda0179eacc41e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb96961260739097ba0fd3e121af99de') in 0.219254 seconds
+  Import took 0.223603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/3D/Animation/forest_guard@block.FBX
+  artifactKey: Guid(1f284c3f7d1d34090847cc432da6a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@block.FBX using Guid(1f284c3f7d1d34090847cc432da6a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba287de011c06512e5c383dca3ad5a27') in 0.186363 seconds
+  Import took 0.190185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/3D/Animation/forest_guard@dead.FBX
+  artifactKey: Guid(e4d6bc05ce9f1406d951a8fb3a4b5611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@dead.FBX using Guid(e4d6bc05ce9f1406d951a8fb3a4b5611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586ef54998e4c4130b1f381ac6322f41') in 0.223509 seconds
+  Import took 0.227761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/3D/Animation/forest_guard@block_idle.FBX
+  artifactKey: Guid(7a0cbf8b68efb4e48b1ed5afc039b676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@block_idle.FBX using Guid(7a0cbf8b68efb4e48b1ed5afc039b676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9f8650fe1c8fe3738bb21ebbd1b5a3') in 0.197425 seconds
+  Import took 0.202139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/3D/Animation/forest_guard@get_hit_R.FBX
+  artifactKey: Guid(1167ee895f50f41e5b9100eb8faeaa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@get_hit_R.FBX using Guid(1167ee895f50f41e5b9100eb8faeaa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9486dc939ca6d3dea8b705014ccd521') in 0.214667 seconds
+  Import took 0.219717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/3D/Animation/forest_guard@run.FBX
+  artifactKey: Guid(629db4e1f4ca6430db0304ed2995018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@run.FBX using Guid(629db4e1f4ca6430db0304ed2995018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810f01ea0abee2bb75f6cce83833ddc5') in 0.203649 seconds
+  Import took 0.207535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/3D/Animation/forest_guard@attack(1).FBX
+  artifactKey: Guid(ff509ca2b4e9e44a7b605b72ce20c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@attack(1).FBX using Guid(ff509ca2b4e9e44a7b605b72ce20c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91420c1cc3be00ff0e3facb5117bc4eb') in 0.129127 seconds
+  Import took 0.132883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/3D/Animation/forest_guard@get_hit_block.FBX
+  artifactKey: Guid(f8072678666fa40828810e60293671a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@get_hit_block.FBX using Guid(f8072678666fa40828810e60293671a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3157574bc73482279e09dfb6e0758007') in 0.138410 seconds
+  Import took 0.144535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/3D/Animation
+  artifactKey: Guid(103c87d222ae34946af2e42e2a0ddd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation using Guid(103c87d222ae34946af2e42e2a0ddd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd3f55f5e2da2e981a92881a44fbe07') in 0.009245 seconds
+  Import took 0.015161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/3D/Animation/forest_guard@jump.FBX
+  artifactKey: Guid(f56bea447a7f24b5a87819c13ab78ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@jump.FBX using Guid(f56bea447a7f24b5a87819c13ab78ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd914c49d7d9230ef42c16e73c0102fe3') in 0.220680 seconds
+  Import took 0.226541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/3D/Animation/forest_guard@idle.FBX
+  artifactKey: Guid(64cdf4d11c05c49a3bd76b4e04f7e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@idle.FBX using Guid(64cdf4d11c05c49a3bd76b4e04f7e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46ef2e94e91c21051b90782a1509322') in 0.207935 seconds
+  Import took 0.213035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/3D/Animation/forest_guard@attack(2).FBX
+  artifactKey: Guid(8668f97ea23c84f4e83930dac46eda5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Animation/forest_guard@attack(2).FBX using Guid(8668f97ea23c84f4e83930dac46eda5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674186fa4859087a56f242ccffe68cbe') in 0.140387 seconds
+  Import took 0.144697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.479481 seconds.
+  path: Assets/3D
+  artifactKey: Guid(26827b93c6e2042f1a281f2e4178bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D using Guid(26827b93c6e2042f1a281f2e4178bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c184b3ae4d34585d8b815b772f2479f9') in 0.020369 seconds
+  Import took 0.024746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.490042 seconds.
+  path: Assets/AnimationController
+  artifactKey: Guid(bc2aa71550a3b4530b60d20aa6f7a2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationController using Guid(bc2aa71550a3b4530b60d20aa6f7a2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9eb69dda903c5717d205e79812d27b') in 0.016175 seconds
+  Import took 0.022289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.330824 seconds.
+  path: Assets/AnimationController/Warrior.controller
+  artifactKey: Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationController/Warrior.controller using Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747066437ad414744ac9a864c84ab0af') in 0.075441 seconds
+  Import took 0.080951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.161884 seconds.
+  path: Assets/AnimationController/Warrior.controller
+  artifactKey: Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationController/Warrior.controller using Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe49a40249c3ccf46038871725f18ae') in 0.304038 seconds
+  Import took 0.311010 seconds .
+
