@@ -248,3 +248,67 @@ Received Import Request.
 Start importing Assets/AnimationController/Warrior.controller using Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe49a40249c3ccf46038871725f18ae') in 0.304038 seconds
   Import took 0.311010 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 806.892488 seconds.
+  path: Assets/AnimationController/Warrior.controller
+  artifactKey: Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationController/Warrior.controller using Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7444ecfe369819468e2864d1613630') in 0.239550 seconds
+  Import took 0.245813 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.157016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.489 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.3 MB.
+System memory in use after: 149.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 3.537798 ms (FindLiveObjects: 0.337916 ms CreateObjectMapping: 0.137463 ms MarkObjects: 2.907938 ms  DeleteObjects: 0.151767 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.967099 seconds.
+  path: Assets/AnimationController/Warrior.controller
+  artifactKey: Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationController/Warrior.controller using Guid(07b50952be9824b9a8b235d9412865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284736c4c37a3a8059e10cb9528fccdf') in 0.077997 seconds
+  Import took 0.085414 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.119484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.5 MB.
+System memory in use after: 149.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 3.362620 ms (FindLiveObjects: 0.525691 ms CreateObjectMapping: 0.106369 ms MarkObjects: 2.613273 ms  DeleteObjects: 0.114576 ms)
+
