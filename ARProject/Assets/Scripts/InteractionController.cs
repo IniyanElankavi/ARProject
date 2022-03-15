@@ -10,6 +10,7 @@ public class InteractionController : MonoBehaviour
     public Animator anim;
     public AudioController sfx;
     int hitCounter = 0;
+    bool isLoaded;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,18 +53,25 @@ public class InteractionController : MonoBehaviour
     // Random Attack using UI Button
     public void Attack()
     {
-        int random = Random.Range(1, 4);
-        anim.SetInteger("Attack", random);
-        Invoke("setToDefaultState", 0.2f);
-        sfx.Attack(random - 1);
+        if(isLoaded)
+        {
+            int random = Random.Range(1, 4);
+            anim.SetInteger("Attack", random);
+            Invoke("setToDefaultState", 0.2f);
+            sfx.Attack(random - 1);
+        }
+       
     }
 
     // Make the warrior jump
     public void Jump()
     {
-        anim.SetInteger("Jump", 1);
-        Invoke("setToDefaultState", 0.2f);
-        sfx.Jump(0);
+        if (isLoaded)
+        {
+            anim.SetInteger("Jump", 1);
+            Invoke("setToDefaultState", 0.2f);
+            sfx.Jump(0);
+        }
     }
 
     // Set the animator value to '0'
@@ -77,11 +85,27 @@ public class InteractionController : MonoBehaviour
 
     private void Update()
     {
-        if(!WarriorPrefab)
+        //if(!WarriorPrefab)
+        //{
+        //    WarriorPrefab = GameObject.FindGameObjectWithTag("Warrior");
+        //    anim = WarriorPrefab.GetComponent<Animator>();
+        //    WarriorPrefab.GetComponentInChildren<Button>().onClick.AddListener(Revive);
+        //}
+
+
+        // If the warrior  visible 
+        if (GameObject.FindWithTag("Warrior"))
         {
+            isLoaded = true;
             WarriorPrefab = GameObject.FindGameObjectWithTag("Warrior");
             anim = WarriorPrefab.GetComponent<Animator>();
             WarriorPrefab.GetComponentInChildren<Button>().onClick.AddListener(Revive);
+
         }
+        else
+        {
+            isLoaded = false;
+        }
+
     }
 }
