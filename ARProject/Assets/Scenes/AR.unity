@@ -213,8 +213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
@@ -507,9 +507,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f163c94eac34d90afdce2a12125642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WarriorPrefab: {fileID: 0}
-  anim: {fileID: 0}
-  sfx: {fileID: 0}
+  _WarriorPrefab: {fileID: 0}
+  _anim: {fileID: 0}
+  _sfx: {fileID: 821521779}
+  _mainCanvas: {fileID: 867834571}
 --- !u!4 &821521778
 Transform:
   m_ObjectHideFlags: 0
