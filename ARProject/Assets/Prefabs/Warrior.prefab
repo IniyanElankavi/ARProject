@@ -700,7 +700,7 @@ RectTransform:
   m_GameObject: {fileID: 2432148560154983282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.060838003, y: 0.060838003, z: 0.060838003}
   m_Children: []
   m_Father: {fileID: 4844723035561661292}
   m_RootOrder: 0
@@ -942,6 +942,7 @@ GameObject:
   - component: {fileID: 2671922285567079531}
   - component: {fileID: 5112323563029209454}
   - component: {fileID: 1484604844023468199}
+  - component: {fileID: -5752559220981640980}
   m_Layer: 0
   m_Name: Warrior
   m_TagString: Warrior
@@ -1097,6 +1098,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4547441, y: 1.9268844, z: 1}
   m_Center: {x: 0.04245904, y: 1.0171167, z: 0}
+--- !u!114 &-5752559220981640980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3014591470509345080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1afad5b064844a779c1d140e2722b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionController: {fileID: 0}
 --- !u!1 &3029244497469938795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2306,7 +2320,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9158206429734234066}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
